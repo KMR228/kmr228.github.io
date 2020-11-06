@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Syne+Mono&display=swap');
+
+body {
+  color: #00008B;
+  background-color: #F5F5DC;
+  font-size:12px;
+  font-family: "Syne Mono", "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  text-align:center;
+}
+
+figure {
+display:block;
+margin-left:auto;
+margin-right:auto;
+margin-bottom: 40px;
+width: 275px;
+
+ .grid{
+   display grid;
+   grid-template-columns: repeat(3,400px);
+   grid-template-rows: repeat(3,200px);
+   grid-gap:20px;
+ }
+
+ #a{
+   grid-column:1;
+   grid-row: 1;
+ }
+ #b {
+   grid-column: 2;
+   grid-row:1;
+ }
+ #c {
+   grid-column: 3;
+   grid-row:1;
+ }
+
+h2 {
+  font-size: 25px;
+  background color: #FFF;
+  border: 1px solid #000;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+h3 {
+  font-size:20px;
+}
+
+ul {
+  padding-right: 0;
+}
+
+h1,
+h2,
+h3,{
+  font-family: "Raleway"
+  font-weight: 900;
+}
+
+a,
+a:link {
+  color: rgb(255,25,1);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(255,25,1,0.5);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(148,0,211);
+}
+
+a:active {
+  color: rgb(255,234,0)
+}
+
+/* semantic tags */
+h1{
+  font-size:46px
+}
+
+h3{
+  color: #8B0000;
+}
+
+p,
+li {
+  color: rgb(0,0,0)
+}
+
+ul li {
+  list-style-type: circle;
+}
+footer {background-color:#F5F5DC;
+}
+
+footer p {
+  color: #222;
+}
