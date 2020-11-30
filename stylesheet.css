@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100&family=Xanh+Mono&display=swap');
+body {
+  margin: 20px;
+  padding:0px;
+  font-weight:400;
+  font-size: 16px;
+  border:1px solid #000;
+  font-family: "Xanh Mono", "Big Shoulders Inline Text", "Sans-serif";
+  min-height: 100vh;
+}
+
+a,
+a:link {
+  color:#800080;
+  text-decoration:none;
+}
+a:visited {
+  color: rgb(48,25,52);
+}
+
+a:hover {
+  color: rgb(0,0,255);
+}
+
+a:active {
+  color:rgb(0,0,255);
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+h1,
+h2{
+  font-family:cursive;
+}
+
+h2 {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.container {
+  width:70%;
+  margin: auto;
+}
+
+p{
+  width:800px;
+  padding-left:30px;
+}
+
+header {
+  background:#FDF6E3;
+  padding-top:10px;
+  padding-bottom: 20px;
+}
+
+header::after {
+  content:'';
+  display:table;
+  clear:both;
+}
+
+nav {
+text-align: center;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+  font-size: 20px;
+}
+
+nav li{
+  display: inline-block;
+  margin-left:20px;
+  text-align: center;
+}
+
+nav a {
+  color: #444;
+  font-size:14px;
+}
+
+.row {
+  display:flex;
+  flex-wrap:wrap;
+  padding:0 4px;
+  padding-left: 40px;
+}
+
+.column {
+  flex: 50%;
+  padding:0 4px;
+}
+
+.column img {
+  margin-top:8px;
+  vertical-align: middle;
+}
+
+figure {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+footer {
+  font-size: 10px;
+  bottom:0;
+  width:100%;
+  position:absolute;
+}
